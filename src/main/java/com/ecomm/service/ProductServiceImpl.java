@@ -14,10 +14,6 @@ public class ProductServiceImpl implements ProductService {
 
 	@Autowired
 	private ProductRepository productRepository;
-	
-	public static int addname() {
-		return 5;
-	}
 
 	@Override
 	public boolean addproduct(Product product) {
