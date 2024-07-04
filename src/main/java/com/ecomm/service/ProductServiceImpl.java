@@ -12,6 +12,10 @@ import com.ecomm.repository.ProductRepository;
 @Service
 public class ProductServiceImpl implements ProductService {
 
+	public static void add(){
+		String "add";
+	}
+
 	@Autowired
 	private ProductRepository productRepository;
 
